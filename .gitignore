@@ -1,0 +1,23 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Claude Code runtime state
+.claude/settings.local.json
+.claude/*.local.json
+
+# Published as ccr.zip instead of tracked plaintext.
+# These stay on local disk but are not committed; the zip is the release artifact.
+claude-code-guidelines.zip
+/UNIVERSAL_CLAUDE_GUIDELINES.md
+/TOC.md
+/task-execution.md
+/multi-agent-orchestration.md
+/model-and-agent-tiers.md
+/external-cli-delegation.md
+/context-and-memory.md
+/environment-and-safety.md
+/documentation-toc.md
+/.claude/
